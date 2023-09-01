@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top{
+    background-color: rgb(59, 57, 57);
+    color: white;
+}
+
+nav ul {
+    padding: 18px 0;
+    display: flex;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul li{
+    list-style: none;
+    margin: auto;
+}
+
+nav ul li a:hover{
+    color: pink;
+    font-weight: bold;
+}
+
+.title{
+    padding: 70px 145px;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.title h4{
+    font-size: 20px;
+}
+
+.title h2{
+    margin: 15px 0px;
+    font-size: 50px;
+}
+
+.title p{
+    line-height: 40px;
+}
+.startbtn{
+    margin: 56px 0px;
+}
+
+.startbtn .start{
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 32px
+}
+
+.startbtn .start:hover{
+    color: wheat;
+    background-color: black;
+    box-shadow: 4px 4px 2px 0px wheat;
+}
+
+.mid{
+    margin-top: 80px;
+}
+
+.mid h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.feature{
+    padding: 60px 53px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-set{
+    background-color: rgb(253, 196, 196);
+    padding: 32px 35px;
+    margin: 10px 22px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.feature-set i{
+    font-size: 35px;
+}
+
+.feature-set h2{
+    margin: 22px 0;
+}
+
+.course-section h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.courses{
+    margin: 65px 55px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.course-name{
+   
+    background-color: rgb(255, 247, 236);
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 10px;
+    padding: 45px 45px;
+}
+
+.price{
+    text-align: center;
+    height: 40px;
+    width: 76px;
+    color: white;
+    background-color: black;
+    margin: 25px 0px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.price:hover{
+    cursor: pointer;
+    color: black;
+    background-color: rgb(250, 201, 209);
+    box-shadow: 4px 2px 2px 2px black;
+}
+
+
+.enroll{
+    color: white;
+    background: rgb(70, 70, 114);
+    padding: 14px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.enroll:hover{
+    color: black;
+    background-color: rgb(244, 208, 214);
+    box-shadow: 4px 2px 2px 2px black;
+}
+
+
+.blog-section{
+    margin: 80px 0px;
+}
+
+.blog-section h2{
+    text-align: center;
+    margin: 0 10px;
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+.blog-container{
+    display: flex;
+}
+
+.benefit .left{
+    padding: 88px 88px;
+    
+    
+    line-height: 24px;
+}
+
+.benefit .right{
+    padding: 145px 19px;
+}
+
+
+
+
+.benefit div{
+    display: grid;
+    grid-template-columns: auto auto;
+
+
+}
+
+.benefit h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+iframe{
+    width: 420px;
+    height: 300px;
+}
+
+
+.assessment {
+    text-align: center;
+    background-color: black;
+    /* color: white; */
+    opacity: 0.8;
+    margin: 99px 194px;
+    padding: 40px 33px;
+
+
+}
+.assessment a{
+    color: white;
+    line-height: 34px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.assessment h2{
+    font-size: 30px;
+
+}
+.assessment p{
+
+}
+
+
+
+
+.comment{
+    border: 2px solid grey;
+    height: 590px;
+    width: 550px;
+    margin: 30px 60px;
+
+}
+
+.comment h2{
+    text-align: left;
+    margin: 31px 30px;
+}
+
+.comment div input{
+    margin: 10px 30px;
+    width: 351px;
+    height: 50px;
+    padding: 18px 22px;
+    font-size: 15px;
+}
+
+.comment div #comment-id{
+    padding-bottom: 200px;
+}
+
+.comment div #post-id{
+    text-align: left;
+    color: black;
+    border: 2px solid black;
+}
+
+.contact-section{
+    background-color: rgb(70, 59, 80);
+    padding: 65px 0;
+    color: white;
+}
+
+.contact-container{
+    
+    font-size: 21px;
+    margin: 43px;
+    line-height: 30px;
+}
+
+
+.contact-section h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.contacts{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center
+}
+
+.contact{
+    margin: 32px 0;
+}
+
+.contact i{
+    font-size: 30px;
+}
+
+.form-section{
+    margin: 64px 0;
+}
+
+.form-section div input{
+    padding: 12px 37px;
+    font-size: 15px;
+    text-align: center;
+    margin: 11px 0px
+}
+
+.form-section div textarea{
+    padding: 11px 11px;
+    text-align: center;
+}
+
+#box{
+    padding: 5px;
+    width: 200px;
+    z-index: 10;
+    position: relative;
+}
+
+#box form{
+    background: #006699;
+    padding: 10px;
+    display: none;
+    position: absolute;
+}
+
+#form p input{
+    padding: 7px 7px;
+    font-size: 20px;
+}
+
+#button{
+    width: 75px;
+    background: #006699;
+    color: #fff;
+    padding: 3px 10px;
+    border: 1px solid #006699;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    background: none;
+    color: #fff;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+#form-id{
+    display: flex;
+    justify-content: center;
+}

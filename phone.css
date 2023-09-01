@@ -1,0 +1,14 @@
+.feature {
+    display: flex;
+    flex-direction: column;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.benefit div {
+    display: grid;
+    grid-template-columns: auto;
+}
