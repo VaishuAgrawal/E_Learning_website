@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .left {
+            font-size: 20px;
+            padding: 18px 78px;
+
+            width: 30%;
+            height: 100vh;
+            background-color: black;
+            opacity: 0.8;
+            color: white;
+            line-height: 44px;
+        }
+
+        .left ul li {
+            list-style: none;
+        }
+
+        .active {
+            color: pink;
+        }
+
+        .profile {
+            float: right;
+        }
+
+        .profile i {
+            height: 200px;
+            width: 200px;
+            font-size: 151px;
+            margin: 34px 305px;
+            border: 2px solid black;
+            padding: 15px 22px;
+            border-radius: 50%;
+        }
+
+        .profile h4 {
+            text-align: center;
+            font-size: 20px;
+
+        }
+
+        .left-box {
+            border: 2px solid black;
+            box-shadow: 2px 2px pink;
+            width: 40%;
+            margin: 52px 31px;
+            float: left;
+            padding: 12px 20px;
+            line-height: 30px;
+        }
+
+        .right-box {
+            width: 41%;
+            margin: 52px 31px;
+            float: right;
+            padding: 12px 20px;
+            line-height: 30px;
+            opacity: 0.8;
+            box-shadow: 2px 2px pink;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="left">
+            <ul>
+                <li class="active">Profile</li>
+                <li>Dashboard</li>
+                <li>Courses</li>
+                <li>Achievement</li>
+                <li>Settings</li>
+            </ul>
+
+
+        </div>
+        <div class="right">
+            <div class="profile">
+                <i class="bx bx-user"></i>
+                <h4>abc@gmail.com</h4>
+            </div>
+
+            <div class="box">
+                <div class="left-box">
+                    <h3>Upcoming Courses</h3>
+                    <p>core java</p>
+                    <p>Advanced java course</p>
+
+
+                </div>
+                <div class="right-box">
+                    <h3>Achievements</h3>
+                    <p>Completed 5 Courses</p>
+                    <form action="">
+                        File <input type="file" placeholder="Choose file">
+                    
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
